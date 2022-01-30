@@ -1,0 +1,224 @@
+                            /* ********************** Navbar Section ********************** */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 10;
+}
+#logo{
+    margin: 0px 14px;
+}
+#logo img{
+    height: 50px;
+    width: 5 0px;
+    border-radius: 10px;
+    margin: 2px 2px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 5px 40px;
+}
+ul li a{
+    font-size:medium;
+    color: white;
+    display: block;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 2px solid black;
+    text-decoration: none;
+    border-radius: 20px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+                             /* ********************** Home Section ********************** */   
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 200px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background: url(back/back2.jpg) no-repeat center center/cover;
+    position: absolute;
+    padding-bottom: 30px;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    width: 100%;
+}
+#home h1{
+    position: relative;
+    top: 0px;
+    color: white;
+    font-size: 3.2rem;
+    /* font-family: 'Balsamiq Sans', cursive; */
+    text-align: center;
+}
+#home p{
+    position: relative;
+    top: -65px;
+    color: white;
+    /* font-family: 'Balsamiq Sans', cursive; */
+    font-size: 1.4rem;
+}
+.hprimary{
+    /* font-size: 2.5rem; */
+    padding: 40px;
+}
+.btn{
+    position: relative;
+    top: -20px;
+    width: 115px;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    background-color:  #fbb153;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.h-primary-center{
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    color: black;
+}
+
+                                /* ********************** Service Section ********************** */
+
+.service-container{
+    position: absolute;
+    /* font-family: 'Balsamiq Sans', cursive; */
+    top: 95%;
+    width: 99%;
+}
+.service-container::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    width: 100%;
+}
+/* service section */
+#services{
+    margin: 30px;
+    display: flex;
+}
+#services .box{
+    margin: 5px 85px;
+    height: 338px;
+    width: 261px;
+    border: 2px solid #716259;
+    border-radius: 23px;
+    background-color: #f9d88933;
+    text-align: center;
+}
+#services .box img{
+    height: 100px;
+    border-radius: 5px ;
+    position: relative;
+    top: 3%;
+}
+#services .box p{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+.h-primary-center1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    color: black;
+}
+
+                            /* ********************** Client Section ********************** */
+
+#client-section{
+    position: relative;
+    top: 540px;
+    height: 344px;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url(back/back5.jpg)  no-repeat center center/cover;
+    width: 100%;
+    height: 70%;
+    z-index: -1;
+    opacity: 0.5;
+    border: red;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.client-item{
+    padding: 34px;
+}
+.client-item img{
+    height: 110px;
+    border-radius: 30px;
+}
+
+                            /* ********************** Contact Section ********************** */
+
+#contact{
+    position: relative;
+    top: 453px;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9 ;
+    background: url(back/contact.jpg)  no-repeat center center/cover;
+
+}
+.h-primary-center2 {
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    color: white;
+}
+#contact-box{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    padding: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 14px;
+
+}
+#contact-box form{
+    width: 33%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    color: white;
+    /* font-family: 'Balsamiq Sans', cursive; */
+}

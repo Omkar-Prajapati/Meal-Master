@@ -1,0 +1,19 @@
+body{
+    background-color: red;
+}
+/* navigation section */
+#navbar{
+    flex-direction: column;
+}
+
+/* service section */
+#services{
+    flex-direction: column;
+}
+
+/* client section */
+#clients{
+    overflow: hidden;
+}
+
+/* contact section */
